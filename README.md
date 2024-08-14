@@ -1,5 +1,5 @@
 # Projecto_Web #
- ## Entornos Gráficos 2do ##
+ ## Entornos Gráficos ##
 
  **Aguilera Tomás - Aronson Melina - Tomasino Alvaro**
  
