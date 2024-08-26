@@ -1,4 +1,6 @@
-# Práctica Nro. 1 HTML #
+Práctica Nro. 1 HTML
+
+Ejercicio 1
 
 1. Qué es HTML, cuando fue creado, cuáles fueron las distintas versiones y cuál es la última?
 2. ¿Cuáles son los principios básicos que el W3C recomienda seguir para la creación de documentos con HTML?
