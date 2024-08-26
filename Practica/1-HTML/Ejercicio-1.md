@@ -6,4 +6,4 @@
 4. Qué es el DTD y cuáles son los posibles DTDs contemplados en la especificación de HTML 4.01?
 5. Qué son los metadatos y cómo se especifican en HTML? 
 
-1. 
+    1. 
