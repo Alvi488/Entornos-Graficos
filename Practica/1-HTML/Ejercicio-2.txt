@@ -18,12 +18,20 @@ se colocan, cuál es el efecto que producen y señalar cada uno de los elementos
 
     b) <div id="bloque1">Contenido del bloque1</div>
 
-    -Se colocan en
-    -
-    -Elemento: <div id="bloque1">Contenido del bloque1</div>
+    - Se coloca en la sección <body>
+    - Crea un bloque de contenido en la página
+    - Elemento: <div id="bloque1">Contenido del bloque1</div>
+    - Etiquetas: Apertura: <div>
+                 Cierre: </div>
+    - Atributo: id="bloque1"
 
     c) <img src="" alt="lugar imagen" id="im1" name="im1" width="32" height="32" longdesc="detalles.htm" />
 
+    - Se coloca en la sección <body>
+    - Muestra una imagen en la página
+    - Elemento: 
+    - Etiqueta: <img/>
+    - Atributos: src="" alt="lugar imagen" id="im1" name="im1" width="32" height="32" longdesc="detalles.htm"
 
     d) 
     <meta name="keywords" lang="es" content="casa, compra, venta, alquiler " />
