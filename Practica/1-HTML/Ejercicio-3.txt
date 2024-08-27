@@ -1,0 +1,53 @@
+
+3-a.
+•	<a href="http://www.google.com.ar">Click aquí para ir a Google</a>
+    Al hacer clic en el texto “Click aquí para ir a Google” redirige a http://www.google.com.ar definido por el atributo href en la misma
+    ventana
+•	<a href="http://www.google.com.ar" target="_blank">Click aquí para ir a Google</a>
+    El atributo target="_blank" indica que al hacer clic en el texto “Click aquí para ir a Google” redirige a http://www.google.com.ar 
+    en una ventana nueva. 
+•	<a href="http://www. google.com.ar" type="text/html" hreflang="es" charset="utf-8" rel="help"> 
+    Es un en ancla cuyos atributos indican: href, a donde se redirige; type="text/html": Indica el tipo de documento al que se está 
+    enlazando; hreflang="es": Especifica el idioma del documento enlazado; harset="utf-8": Define la codificación de caracteres del
+    documento enlazado; rel="help": Define la relación entre el documento actual y el documento enlazado. Sin embargo al no contar
+    con un texto o imagen sobre el cual se aplica el ancla no es posible utilizarla desde la web.
+• <a href="#">Click aquí para ir a Google</a> 
+    Al hacer clic en el texto "Click aquí para ir a Google" redirige a lo definido por href="#", al empezar por # indica que es un 
+    enlace local, sin embargo, al no contener un id del elemento al cual se quiere redirigir no produce cambios significativos.
+• <a href="#arriba">Click aquí para volver arriba</a> 
+    <a> : etiqueta utilizada para crear un enlace; href="#arriba" : al comienzar con #, lo que indica un enlace a un ancla dentro de
+    la misma página, el arriba es el id del elemento que en caso de existir se redigiria al usuario; "Click aquí para volver arriba" 
+    es el texto que aparece en pantalla.
+•  <a name="arriba" id="arriba"></a> 
+    <a> : etiqueta utilizada para crear un enlace; name="arriba", atributo que indica que el nombre del ancla es arriba; id="arriba": 
+    atributo que indica que el id del ancla es arriba. Al no contar con un texto, no es posible acceder al el.
+
+3-b.
+•	<p><img src="im1.jpg" alt="imagen1" /><a href="http://www.google.com.ar">Click aquí</a></p> 
+    *Descripcion*
+    <p> etiqueta para crea un parrafo, todo lo dentro de esa etiqueta se muestra en mismo bloque.
+    <img src="im1.jpg" alt="imagen1" />
+        <img> : Es la etiqueta que se usa para insertar una imagen en la página.
+        src="im1.jpg": Define la ruta a la imagen que se quiere mostrar. En este caso, la imagen se llama "im1.jpg" y se asume que está en el mismo directorio que el archivo HTML.
+        alt="imagen1": Proporciona un texto alternativo que se muestra si la imagen no se carga.
+    <a href="http://www.google.com.ar">Click aquí</a>
+        <a>: Es la etiqueta para crear un enlace.
+        href="http://www.google.com.ar": Especifica la URL a la que el enlace llevará al usuario.
+        "Click aquí": Es el texto que se mostrará como enlace y que será clicable.
+    *Funcionamiento*:
+    Aparece una imagen y, justo al lado de la imagen, un texto que dice "Click aquí".
+    Si se hace clic en el texto "Click aquí", se redirecciona al usuario a la página (http://www.google.com.ar).
+
+•    <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> Click aquí</p> 
+    *Descripcion*
+    <p> etiqueta para crea un parrafo, todo lo dentro de esa etiqueta se muestra en mismo bloque.
+    <a href="http://www.google.com.ar">:
+        <a>: Es la etiqueta para crear un enlace.
+        href="http://www.google.com.ar": Especifica la URL a la que el enlace 
+    <img src="im1.jpg" alt="imagen1" />:
+        <img>: Inserta una imagen en la página.
+        src="im1.jpg": Define la ruta de la imagen que se desea mostrar.
+        alt="imagen1": Proporciona un texto alternativo que se mostrará si la imagen no se carga.
+    *Funcionamiento*:
+    Aparece una imagen que, cuando se hace clic, lleva al usuario a la página de  (http://www.google.com.ar). Al lado de la imagen, aparece el texto "Click aquí". El texto "Click aquí" no es parte del enlace, por lo que al hacer clic en él no ocurrirá nada.
+
