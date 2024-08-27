@@ -51,3 +51,122 @@
     *Funcionamiento*:
     Aparece una imagen que, cuando se hace clic, lleva al usuario a la página de  (http://www.google.com.ar). Al lado de la imagen, aparece el texto "Click aquí". El texto "Click aquí" no es parte del enlace, por lo que al hacer clic en él no ocurrirá nada.
 
+•    <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" />Click aquí</a></p> 
+    *Descripcion* Utiliza los mismo elementos que los otros
+    *Funcionamiento* 
+     Aparece una imagen seguida del texto "Click aquí", ambos dentro del mismo enlace. Al hacer clic en la imagen o en el texto, lleva al usuario a la página de (http://www.google.com.ar).
+
+•    <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1"/></a> <a href="http://www.google.com.ar">Click aquí</a></p>
+    *Descripcion* Utiliza los mismo elementos que los otros
+    *Funcionamiento*    
+    Aparece una imagen seguida del texto "Click aquí", cada uno con su propio enlace del mismo enlace. Al hacer clic en la imagen o en el texto, lleva al usuario a la página de (http://www.google.com.ar), pero cada uno con su propio enlace.
+
+3-c.
+•    <ul>   
+        <li>xxx</li> 
+        <li>yyy</li> 
+        <li>zzz</li> 
+     </ul>
+
+    *Descripcion*
+    <ul> Define una lista desordenada. Los elementos de la lista dentro de esta etiqueta se muestran con viñetas por defecto.
+    <li>: Define un elemento de la lista.
+    *Funcionamiento* 
+    La lista desordenada se mostrará con viñetas delante de cada ítem.
+
+•   <ol> 
+        <li>xxx</li> 
+        <li>yyy</li> 
+        <li>zzz</li> 
+    </ol> 
+
+    *Descripcion* 
+    <ol> Define una lista ordenada.
+    <li> Define un elemento de la lista.
+
+    *Funcionamiento*
+    Se muestra una lista ordenada se mostrará con el numero de orden delante de cada ítem.
+
+•   <ol> 
+        <li>xxx</li> 
+    </ol> 
+    <ol> 
+        <li value="2">yyy</li> 
+    </ol> 
+    <ol> 
+        <li value="3">zzz</li> 
+    </ol>
+
+    *Descripcion* 
+    <ol> Define una lista ordenada.
+    <li> Define un elemento de la lista.
+    El atributo value en la etiqueta <li> se usa para especificar el número de inicio del ítem en la lista ordenada.
+
+    *Funcionamiento*
+    Se muestran 3 listas ordenadas, compuesta de un item cada una, donde a cada item se le fuerza el valor corriespondinte, donde se mostrará con el numero de orden delante de cada ítem.
+
+•   <blockquote>    
+    <p>
+        1. xxx<br /> 
+        2. yyy<br /> 
+        3. zzz
+    </p> 
+    </blockquote> 
+
+    *Descripcion*
+    <blockquote> Se usa para mostrar un bloque de texto para cita. Tiene por defecto un magen a la izquierda.
+    <p> Define un párrafo dentro del bloque de cita. Los elementos de texto dentro de esta etiqueta se agrupan en un párrafo.
+    Se utilizan números para enumerar los items de manera manual acomparñado de el tag <br/> para insertar un salto de linea
+
+    *Funcionamiento*
+    Se muestra un bloque de texto con los ítems numerados y separados por saltos de línea dentro del bloque de cita.
+
+3-d.
+    *Descripción*
+    <table> Define una tabla en HTML.
+    border="1": Establece el grosor del borde de la tabla a 1 píxel.
+    width="300": Define el ancho total de la tabla como 300 píxeles. 
+
+    <tr> Define una fila en la tabla donde cada una puede contener una o más celdas.
+        <th> Define una celda de encabezado en la tabla. Las celdas de encabezado suelen estar en negrita y centradas por defecto.
+        <td> Define una celda de datos en la tabla.
+
+•   <table border="1" width="300"> 
+        <tr> 
+            <th>Columna 1</th> 
+            <th>Columna 2</th> 
+        </tr> 
+        <tr> 
+            <td>Celda 1</td> 
+            <td>Celda 2</td> 
+        </tr> 
+        <tr> 
+            <td>Celda 3</td> 
+            <td>Celda 4</td> 
+        </tr> 
+    </table>
+
+    *Funcionamiento*
+    Muestra una tabla de 2 x 3 donde cada columna tiene una titulo cuyo texto se encuentra dentro de la primera celda de cada columna con negrita y centrada, de manera automática.
+
+•   <table border="1" width="300"> 
+        <tr> 
+            <td><div align="center"><strong>Columna 1</strong></div></td> 
+            <td><div align="center"><strong>Columna 2</strong></div></td> 
+        </tr> 
+        <tr> 
+            <td>Celda 1</td> 
+            <td>Celda 2</td> 
+        </tr> 
+        <tr> 
+            <td>Celda 3</td> 
+            <td>Celda 4</td> 
+        </tr>
+    </table> 
+
+    *Funcionamiento*
+    Muestra una tabla de 2 x 3 donde cada columna tiene una titulo cuyo texto se encuentra dentro de la primera celda de cada columna con negrita y negrita, pero de manera manual.
+
+3-e.
+•   
+
