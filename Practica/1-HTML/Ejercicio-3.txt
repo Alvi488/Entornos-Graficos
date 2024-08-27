@@ -21,3 +21,33 @@
 •  <a name="arriba" id="arriba"></a> 
     <a> : etiqueta utilizada para crear un enlace; name="arriba", atributo que indica que el nombre del ancla es arriba; id="arriba": 
     atributo que indica que el id del ancla es arriba. Al no contar con un texto, no es posible acceder al el.
+
+3-b.
+•	<p><img src="im1.jpg" alt="imagen1" /><a href="http://www.google.com.ar">Click aquí</a></p> 
+    *Descripcion*
+    <p> etiqueta para crea un parrafo, todo lo dentro de esa etiqueta se muestra en mismo bloque.
+    <img src="im1.jpg" alt="imagen1" />
+        <img> : Es la etiqueta que se usa para insertar una imagen en la página.
+        src="im1.jpg": Define la ruta a la imagen que se quiere mostrar. En este caso, la imagen se llama "im1.jpg" y se asume que está en el mismo directorio que el archivo HTML.
+        alt="imagen1": Proporciona un texto alternativo que se muestra si la imagen no se carga.
+    <a href="http://www.google.com.ar">Click aquí</a>
+        <a>: Es la etiqueta para crear un enlace.
+        href="http://www.google.com.ar": Especifica la URL a la que el enlace llevará al usuario.
+        "Click aquí": Es el texto que se mostrará como enlace y que será clicable.
+    *Funcionamiento*:
+    Aparece una imagen y, justo al lado de la imagen, un texto que dice "Click aquí".
+    Si se hace clic en el texto "Click aquí", se redirecciona al usuario a la página (http://www.google.com.ar).
+
+•    <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> Click aquí</p> 
+    *Descripcion*
+    <p> etiqueta para crea un parrafo, todo lo dentro de esa etiqueta se muestra en mismo bloque.
+    <a href="http://www.google.com.ar">:
+        <a>: Es la etiqueta para crear un enlace.
+        href="http://www.google.com.ar": Especifica la URL a la que el enlace 
+    <img src="im1.jpg" alt="imagen1" />:
+        <img>: Inserta una imagen en la página.
+        src="im1.jpg": Define la ruta de la imagen que se desea mostrar.
+        alt="imagen1": Proporciona un texto alternativo que se mostrará si la imagen no se carga.
+    *Funcionamiento*:
+    Aparece una imagen que, cuando se hace clic, lleva al usuario a la página de  (http://www.google.com.ar). Al lado de la imagen, aparece el texto "Click aquí". El texto "Click aquí" no es parte del enlace, por lo que al hacer clic en él no ocurrirá nada.
+
