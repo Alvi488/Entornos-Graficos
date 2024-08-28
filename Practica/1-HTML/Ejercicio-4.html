@@ -7,13 +7,7 @@
 </head>
 
 <body>
-    <a href="https://www.frro.utn.edu.ar/index.php" target="_blank">
-        <img src="https://www.frro.utn.edu.ar/imagenes/malvinas.png" alt="Logo UTN" width="500" height="100"></a>
-    <hr size="2" color="black">
-
-    <h1>AÑO 2024</h1>
-
-    <style>
+        <style>
         table {
             border-collapse: collapse;
         }
@@ -23,6 +17,18 @@
             border: 1px solid black;
         }
     </style>
+    
+    <!-- ENCABEZADO Y LOGO -->
+
+    <a href="https://www.frro.utn.edu.ar/index.php" target="_blank">
+        <img src="https://www.frro.utn.edu.ar/imagenes/malvinas.png" alt="Logo UTN" width="500" height="100"></a>
+    <hr size="2" color="black">
+
+    <!-- TÍTULO DE LA PÁGINA -->
+
+    <h1>AÑO 2024</h1>
+
+    <!-- TABLA DE EXÁMENES -->
 
     <table>
         <thead>
@@ -34,9 +40,7 @@
                 <th colspan="2" align="center">Exámenes</th>
             </tr>
             <tr>
-                <td rowspan="2" align="right">Fecha:
-                    <script>document.write(new Date().toLocaleDateString());</script>
-                </td> <!-- Última fecha de actualización -->
+                <td rowspan="2" align="right">Fecha:</td> <!-- Última fecha de actualización -->
                 <td>Aprobados</td>
             </tr>
             <tr>
@@ -44,6 +48,8 @@
             </tr>
         </tbody>
     </table>
+
+    <!-- LISTA ORDENADA DE ENLACES -->
 
     <list>
         <ol>
@@ -56,7 +62,9 @@
         </ol>
     </list>
 
-    <p>Puede realizar consultas completando el siguiente formulario:</p>
+    <!-- FORMULARIO DE CONSULTAS -->
+
+    <div>Puede realizar consultas completando el siguiente formulario:</div>
     <form>
         <p> <label for="email"><b>e-mail: </b> <input type="email" placeholder="Ingrese correo electrónico"
                     id="emailusr"> </label> </p>
@@ -65,6 +73,7 @@
         <button type="submit">Enviar</button> <button type="reset">Borrar</button>
     </form>
 
+    <!-- ENUNCIADO DEL EXÁMEN -->
 
     <h2 id="enunciado">Enunciado de exámen</h2>
     <p>
@@ -74,7 +83,12 @@
         ........................................</p>
     </p>
 
-    <p>Para más información dirigirse a <a href="mailto:contacto@xx.com">contacto@xx.com</a></p>
+    
 </body>
+<footer>
+    <!-- PIE DE PÁGINA -->
+
+    <div>Para más información dirigirse a <a href="mailto:contacto@xx.com">contacto@xx.com</a></div>
+</footer>
 
 </html>
