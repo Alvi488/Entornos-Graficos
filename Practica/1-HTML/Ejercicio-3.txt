@@ -451,13 +451,96 @@ cellspacing="0": Elimina el espacio entre las celdas, haciendo que las celdas es
     <br />: Inserta un salto de línea.
     <b>: Aplica negrita al texto "CLICK AQUÍ".
 
-El botón aparece con una pequeña imagen encima del texto en negrita "CLICK AQUÍ". Al hacer clic en este botón, no ocurrirá nada.
+    *Funcionamiento*
+    El botón aparece con una pequeña imagen encima del texto en negrita "CLICK AQUÍ". Al hacer clic en este botón, no ocurrirá nada.
 
 
 •   <label>Botón 2 
         <input type="button" name="boton2" id="boton2" value="CLICK AQUÍ" /> 
     </label> 
 
+    *Descripcion*
+    <label>: Proporciona una etiqueta descriptiva para el botón, en este caso, "Botón 2". Esto se usa para asociar un texto con el botón.
+    <input type="button">:
+        type="button": Especifica que este elemento <input> se comporta como un botón. No envía formularios ni recarga la página cuando se hace clic en él.
+        name="boton2" y id="boton2": Asignan un nombre y un identificador único al botón.
+        value="CLICK AQUÍ": Define el texto que aparecerá dentro del botón.
 
+    *Funcionamiento*
+    El botón aparece con el texto "CLICK AQUÍ". Este botón es de estilo básico, sin imágenes ni estilos adicionales aplicados. Al hacer clic en el botón, no ocurrirá ninguna acción.
+
+3-j.
+    *Descripcion*
+    <p>: Agrupa los elementos de los botones de radio dentro de un párrafo. 
+    <label>: Asocia un texto descriptivo con el botón de radio. El texto que se muestra junto al botón se coloca dentro de la etiqueta <label>.
+    Usar <label> alrededor de un <input> permite que el usuario pueda hacer clic en el texto para seleccionar el botón de radio.
+        type="radio": Especifica que el elemento es un botón de radio. 
+        name="opcion": Define el grupo al que pertenece el botón de radio.
+        id="X" y id="Y": Proporcionan un identificador único para cada botón de radio.
+        value="X" y value="Y": Especifica el valor que se enviará al servidor cuando el botón de radio esté seleccionado.
+    <br />: Inserta un salto de línea entre los botones de radio.
+
+•   <p>
+        <label><input type="radio" name="opcion" id="X" value="X" />X</label>
+        <br /> 
+        <label><input type="radio" name="opcion" id="Y" value="Y" />Y</label>
+    </p>
+
+•   <p>
+        <label><input type="radio" name="opcion1" id="X" value="X" />X</label>
+        <br /> 
+        <label><input type="radio" name="opcion2" id="Y" value="Y" />Y</label>
+    </p> 
+
+    *Funcionamiento*
+    El primer segmento de codigo solo permite seleccionar uno de los botones. Al seleccionar un botón de radio, el otro se deseleccionará automáticamente, ya que ambos comparten el mismo atributo name.
+    El segundo segmento de codigo solo permite seleccionar uno o los dos botones. Al seleccionar un botón de radio, el otro se deseleccionará automáticamente, ya que ambos tienen distinto atributo name.
+    Los botones de radio permiten seleccionar solo una opción dentro de un grupo con el mismo nombre.
+
+3-k.
+•   <select name="lista"> 
+        <optgroup label="Caso 1"> 
+            <option>Mayo</option> 
+            <option>Junio</option> 
+        </optgroup> 
+        <optgroup label="Caso 2"> 
+            <option>Mayo</option> 
+            <option>Junio</option> 
+        </optgroup> 
+    </select>
 
     *Descripcion*
+    <select>: Crea un menú desplegable en el cual el usuario puede seleccionar una opción.
+        name="lista": Asigna un nombre al menú desplegable.
+
+    <optgroup>: Crea un grupo de opciones dentro del menú desplegable, donde las opciones dentro de un optgroup se agrupan bajo una etiqueta común.
+        label="Caso 1" y label="Caso 2": Define el nombre del grupo que se muestra como encabezado sobre las opciones dentro de ese grupo.
+    
+    <option>: Define una opción que el usuario puede seleccionar. Aquí, tanto "Mayo" como "Junio" son opciones disponibles bajo cada grupo.
+    
+    *Funcionamiento*
+    El menú desplegable aparecerá con dos grupos de opciones, "Caso 1" y "Caso 2", cada uno con las opciones "Mayo" y "Junio". El usuario puede desplegar el menú, ver las opciones agrupadas bajo "Caso 1" y "Caso 2", y seleccionar una de las opciones.
+
+•   <select name="lista[]" multiple="multiple"> 
+        <optgroup label=" Caso 1"> 
+            <option>Mayo</option> 
+            <option>Junio</option> 
+        </optgroup> 
+        <optgroup label=" Caso 2"> 
+            <option>Mayo</option> 
+            <option>Junio</option> 
+        </optgroup> 
+    </select> 
+
+    *Descripcion*
+
+    <select>: Crea un menú desplegable.
+        name="lista[]": Asigna un nombre al menú desplegable. El uso de [] en el nombre indica que se espera un arreglo de valores, lo cual es apropiado cuando se permite la selección múltiple.
+        multiple="multiple": Permite la selección de más de una opción a la vez.
+    <optgroup>: Agrupa opciones dentro del menú desplegable bajo un encabezado común.
+    label="Caso 1" y label="Caso 2": Define los encabezados de los grupos de opciones. Estos aparecerán en el menú para separar las opciones bajo diferentes categorías.
+
+    <option>: Define cada opción dentro del menú desplegable. Las opciones "Mayo" y "Junio" se encuentran en ambos grupos. El texto dentro de cada etiqueta <option> es lo que se muestra al usuario.
+
+    *Funcionamiento*
+    El menú desplegable permite al usuario seleccionar varias opciones de los grupos "Caso 1" y "Caso 2". Cada grupo tiene las opciones "Mayo" y "Junio". Como es un menú de selección múltiple, se puede seleccionar más de una opción a la vez.
