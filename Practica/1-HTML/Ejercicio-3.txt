@@ -406,3 +406,58 @@ cellspacing="0": Elimina el espacio entre las celdas, haciendo que las celdas es
     <input type="reset" id="boton3" name="boton3" value= "Enviar" /> 
     </form> 
 
+
+    *Descripcion*
+
+    id="form3" y name="form3": Identifican el formulario.
+    action="mailto:xx@xx.com": Envía los datos del formulario a la dirección de correo electrónico especificada.
+    enctype="text/plain": Especifica que los datos se enviarán en formato de texto plano.
+    method="post": Usa el método POST para enviar los datos.
+    target="_blank": Abre la operación de envío en una nueva pestaña.
+
+    <fieldset>: Agrupa los campos del formulario dentro de un cuadro visual, proporcionando una mejor organización.
+    <legend>LOGIN</legend>: Proporciona un título descriptivo para el grupo de campos.
+
+    <input type="text"> y <input type="password">:
+        type="text": Crea un campo de entrada de texto para el nombre de usuario.
+        type="password": Crea un campo de entrada de contraseña donde los caracteres se muestran como puntos o asteriscos.
+    
+    <input type="submit">:
+        type="submit": Especifica que el botón enviará el formulario.
+        value="Enviar": Define el texto que aparecerá en el botón.
+
+3-i.
+
+•   <label>Botón 1 
+        <button type="button" name="boton1" id="boton1"> 
+            <img src="logo.jpg" alt="Botón con imagen " width="30" height="20" /><br /> 
+            <b>CLICK AQUÍ</b>
+        </button>
+    </label> 
+
+    *Descripcion*
+    <label>:
+        <label>: Asocia un texto descriptivo con un elemento de formulario, aunque en este caso no es completamente necesario; se utiliza más como un contenedor para el texto descriptivo "Botón 1" y el botón en sí.
+    
+        <button>:
+        type="button": Especifica que este botón no enviará un formulario cuando se haga clic en él.
+        name="boton1" y id="boton1": Asignan un nombre y un identificador único al botón.
+    
+    <img>:
+        src="logo.jpg": Especifica la ruta de la imagen que se mostrará en el botón. En este caso, la imagen está en el archivo logo.jpg.
+        alt="Botón con imagen": Proporciona texto alternativo que describe la imagen.
+        width="30" y height="20": Establecen el tamaño de la imagen en píxeles.
+    
+    <br />: Inserta un salto de línea.
+    <b>: Aplica negrita al texto "CLICK AQUÍ".
+
+El botón aparece con una pequeña imagen encima del texto en negrita "CLICK AQUÍ". Al hacer clic en este botón, no ocurrirá nada.
+
+
+•   <label>Botón 2 
+        <input type="button" name="boton2" id="boton2" value="CLICK AQUÍ" /> 
+    </label> 
+
+
+
+    *Descripcion*
