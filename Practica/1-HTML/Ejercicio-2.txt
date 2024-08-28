@@ -9,7 +9,7 @@ Analizar los siguientes segmentos de código indicando en qué sección del docu
     - Aplica comentarios (se ignora en la ejecución)
     - Etiquetas: Apertura: <!--
                  Cierre: -->
-    - Atributo: Código controlado el día 12/08/2009 
+    - Atributo: Código controlado el día 12/08/2009
     
 
     b) <div id="bloque1">Contenido del bloque1</div>
@@ -25,8 +25,8 @@ Analizar los siguientes segmentos de código indicando en qué sección del docu
     - Se coloca en la sección <body>
     - Muestra una imagen en la página
     - Etiqueta: <img/>
-    - Atributos: src=""
-                 alt="lugar imagen"
+    - Atributos: src="" (es obligatorio)
+                 alt="lugar imagen" (es obligatorio)
                  id="im1"
                  name="im1"
                  width="32"
@@ -41,9 +41,9 @@ Analizar los siguientes segmentos de código indicando en qué sección del docu
     - Etiqueta: <meta/>
     - Atributos: name="keywords"
                  lang="es"
-                 content="casa, compra, venta, alquiler"
+                 content="casa, compra, venta, alquiler" (es obligatorio)
                  http-equiv="expires"
-                 content="16-Sep-2019 7:49 PM"
+                 content="16-Sep-2019 7:49 PM" (es obligatorio)
 
     e) <a href="http://www.e-style.com.ar/resumen.html" type="text/html" hreflang="es" charset="utf-8" rel="help">Resumen HTML</a>
 
@@ -51,7 +51,7 @@ Analizar los siguientes segmentos de código indicando en qué sección del docu
     - Crea un enlace
     - Etiquetas: Apertura: <a>
                  Cierre: </a>
-    - Atributos: href="http://www.e-style.com.ar/resumen.html"
+    - Atributos: href="http://www.e-style.com.ar/resumen.html" (es obligatorio)
                  type="text/html"
                  hreflang="es"
                  charset="utf-8"
