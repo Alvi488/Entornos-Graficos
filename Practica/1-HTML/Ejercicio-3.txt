@@ -167,6 +167,169 @@
     *Funcionamiento*
     Muestra una tabla de 2 x 3 donde cada columna tiene una titulo cuyo texto se encuentra dentro de la primera celda de cada columna con negrita y negrita, pero de manera manual.
 
-3-e.
-•   
+3-e.  
+    *Descripción*
+    <table>: Define la tabla en HTML.
+    width="200": Establece el ancho de la tabla en 200 píxeles.
 
+    <caption>: Proporciona un título para la tabla. 
+
+    <tr> Define una fila en la tabla donde cada una puede contener una o más celdas.
+    <td> Define una celda de datos en la tabla.
+    bgcolor="#dddddd": Establece el color de fondo de la celda usando un código de color hexadecimal.
+
+    &nbsp;: Es una entidad HTML que representa un espacio en blanco no separable. Se utiliza aquí para que las celdas no estén vacías y tengan un contenido que las haga visibles.
+    colspan="3": Este atributo en <td> indica que la celda se extiende a través de tres columnas
+    <div align="center">: Centra el contenido 
+    
+
+•   <table width="200"> 
+        <caption> 
+            Título 
+        </caption> 
+        <tr> 
+            <td bgcolor="#dddddd">&nbsp;</td> 
+            <td bgcolor="#dddddd">&nbsp;</td> 
+            <td bgcolor="#dddddd">&nbsp;</td> 
+        </tr> 
+        <tr> 
+            <td bgcolor="#dddddd">&nbsp;</td> 
+            <td bgcolor="#dddddd">&nbsp;</td> 
+            <td bgcolor="#dddddd">&nbsp;</td> 
+        </tr>   
+    </table>
+
+    *Funcionamiento*
+    Muestra una tabla de 3 x 2 de color gris claro separadas por un espacio en blanco no separable, y todo esto bajo un unico título, con el texto "Título" se muestra centrado encima de la tabla por defecto.
+
+•   <table width="200"> 
+        <tr>
+            <td colspan="3"><div 
+                align="center">Título</div>
+            </td> 
+        </tr> 
+        <tr> 
+            <td bgcolor="#dddddd">&nbsp;</td> 
+            <td bgcolor="#dddddd">&nbsp;</td> 
+            <td bgcolor="#dddddd">&nbsp;</td> 
+        </tr> 
+        <tr> 
+            <td bgcolor="#dddddd">&nbsp;</td> 
+            <td bgcolor="#dddddd">&nbsp;</td> 
+            <td bgcolor="#dddddd">&nbsp;</td> 
+        </tr> 
+    </table> 
+
+    *Funcionamiento*
+    Muestra una tabla de 3 x 3 donde las ultimas dos filas son de color gris claro separadas por un espacio en blanco. A su vez, primera fila de color blanco se encuetran colapsadas y utilizandola para poner el titulo  para luego centrarlo dentro de un div.
+
+3-f.
+    *Descripción*
+    <table>: Define la tabla en HTML.
+    width="200": Establece el ancho de la tabla en 200 píxeles.
+    <tr> Define una fila en la tabla donde cada una puede contener una o más celdas.
+    <td> Define una celda de datos en la tabla.
+    bgcolor="#dddddd": Establece el color de fondo de la celda usando un código de color hexadecimal.
+    &nbsp;: Es una entidad HTML que representa un espacio en blanco no separable. Se utiliza aquí para que las celdas no estén vacías y tengan un contenido que las haga visibles.
+    colspan="": Este atributo en <td> indica que la celda se extiende a través de una cantidad de columnas.
+    rowspan="": Este atributo en <tr> indica que la celda se extiende a través de una cantidad de filas.
+    <div align="center">: Centra el contenido 
+
+•   <table width="200"> 
+        <tr> 
+            <td colspan="3">
+                <div align="center">Título</div>
+            </td> 
+        </tr> 
+        <tr> 
+            <td rowspan="2" bgcolor="#dddddd">&nbsp;</td> 
+            <td bgcolor="#dddddd">&nbsp;</td> 
+            <td bgcolor="#dddddd">&nbsp;</td> 
+        </tr> 
+        <tr> 
+            <td bgcolor="#dddddd">&nbsp;</td> 
+            <td bgcolor="#dddddd">&nbsp;</td> 
+        </tr> 
+    </table>
+
+    *Funcionamiento*
+    Muestra una tabla de 3 x 3 donde las ultimas dos filas son de color gris claro separadas por un espacio en blanco. A su vez, primera fila de color blanco se encuetran colapsadas y utilizandola para poner el titulo  para luego centrarlo dentro de un div. A su vez la segunda celda de la primera columna, se extiende por dos filas  
+
+•   <table width="200"> 
+        <tr> 
+            <td colspan="3">
+                <div align="center">Título</div>
+            </td> 
+        </tr> 
+        <tr> 
+            <td colspan="2" bgcolor="#dddddd">&nbsp;</td> 
+            <td bgcolor="#dddddd">&nbsp;</td> 
+        </tr> 
+        <tr> 
+            <td bgcolor="#dddddd">&nbsp;</td> 
+            <td bgcolor="#dddddd">&nbsp;</td> 
+            <td bgcolor="#dddddd">&nbsp;</td> 
+        </tr> 
+    </table>
+
+    *Funcionamiento*
+    Muestra una tabla de 3 x 3 donde las ultimas dos filas son de color gris claro separadas por un espacio en blanco. A su vez, primera fila de color blanco se encuetran colapsadas y utilizandola para poner el titulo  para luego centrarlo dentro de un div. A su vez la primera celda de la primera fila, se extiende por dos columnas.
+
+3-g.
+    *Descripcion*
+    <table>: Define la tabla en HTML.
+    width="200": Establece el ancho de la tabla en 200 píxeles.
+    <tr> Define una fila en la tabla donde cada una puede contener una o más celdas.
+    <td> Define una celda de datos en la tabla.
+    bgcolor="#dddddd": Establece el color de fondo de la celda usando un código de color hexadecimal.
+    &nbsp;: Es una entidad HTML que representa un espacio en blanco no separable. Se utiliza aquí para que las celdas no estén vacías y tengan un contenido que las haga visibles.
+    colspan="": Este atributo en <td> indica que la celda se extiende a través de una cantidad de columnas.
+    rowspan="": Este atributo en <tr> indica que la celda se extiende a través de una cantidad de filas.
+    <div align="center">: Centra el contenido 
+    width="50%": Establece que esta celda en la última fila ocupa el 50% del ancho de la tabla
+
+•   <table width="200" border="1"> 
+        <tr> 
+            <td colspan="3">
+                <div align="center">Título</div>
+            </td> 
+        </tr> 
+        <tr> 
+            <td colspan="2"rowspan="2">&nbsp;</td> 
+            <td>&nbsp;</td> 
+        </tr> 
+        <tr> 
+            <td width="50%">&nbsp;</td> 
+        </tr> 
+    </table>
+
+    *Funcionalidad*
+    Muestra una tabla de 3 x 3 donde las ultimas dos filas son de color gris claro separadas por un espacio en blanco. Donde:
+        Primera Fila: Contiene una celda que abarca las tres columnas y tiene el título centrado.
+        Segunda Fila: La primera celda abarca dos columnas y dos filas, con una segunda celda a la derecha del 50% de ancho de la tabla.
+        Tercera Fila: Contiene una única celda debajo de la celda de la derecha en la fila anterior del 50% de ancho de la tabla. 
+    La tabla a diferencia de la otra muestra espacios en blanco entre las celdas.
+
+•   <table width="200" border="1" cellpadding="0" cellspacing="0"> 
+        <tr> 
+            <td colspan="2">
+                <div align="center">Título</div>
+            </td> 
+        </tr> 
+        <tr> 
+            <td rowspan="2">&nbsp;</td> 
+            <td>&nbsp;</td> 
+        </tr> 
+        <tr> 
+            <td width="50%">&nbsp;</td> 
+        </tr> 
+    </table>
+
+    *Funcionalidad*
+    Muestra una tabla de 3 x 3 donde las ultimas dos filas son de color gris claro separadas por un espacio en blanco. Donde:
+        Primera Fila: Contiene una celda que abarca las tres columnas y tiene el título centrado.
+        Segunda Fila: La primera celda abarca dos columnas y dos filas, con una segunda celda a la derecha del 50% de ancho de la tabla.
+        Tercera Fila: Contiene una única celda debajo de la celda de la derecha en la fila anterior del 50% de ancho de la tabla. 
+    Tambien cellpadding="0": Elimina el relleno dentro de las celdas, de modo que el contenido de la celda toque directamente los bordes de la celda.
+cellspacing="0": Elimina el espacio entre las celdas, haciendo que las celdas estén directamente una al lado de la otra.
+    
