@@ -332,4 +332,77 @@
         Tercera Fila: Contiene una única celda debajo de la celda de la derecha en la fila anterior del 50% de ancho de la tabla. 
     Tambien cellpadding="0": Elimina el relleno dentro de las celdas, de modo que el contenido de la celda toque directamente los bordes de la celda.
 cellspacing="0": Elimina el espacio entre las celdas, haciendo que las celdas estén directamente una al lado de la otra.
+
+3-h.
+•   <form id="form1" name="form1" action="procesar.php" method="post" target="_blank"> 
+        <fieldset> 
+            <legend>LOGIN</legend> 
+            Usuario: <input type="text" id="usu1" name="usu1" value="xxx" />
+            <br /> 
+            Clave: <input type="password" id="clave1" name="clave1" value="xxx" /> 
+        </fieldset> 
+        <input type="submit" id="boton1" name="boton1" value="Enviar" /> 
+    </form> 
+
+    *Descripcion*
+    form>: Define el formulario en HTML.
+    id="form1" y name="form1": Asignan identificadores al formulario.
+    action="procesar.php": Especifica la URL del script al que se enviarán los datos del formulario cuando se envíe.
+    method="post": Indica que los datos del formulario se enviarán usando el método POST.
+    target="_blank": Abre el resultado del envío del formulario en una nueva pestaña o ventana.
+
+    <fieldset>: Agrupa elementos relacionados del formulario dentro de un recuadro, proporcionando un mejor contexto visual.
+    <legend>LOGIN</legend>: Proporciona un título para el grupo de campos dentro del fieldset
+
+    type="text": Crea un campo de entrada de texto donde el usuario puede escribir su nombre de usuario.
+    id="usu1" y name="usu1": Identifican el campo de entrada.
+    value="xxx": Establece un valor predeterminado que aparecerá en el campo de texto cuando se cargue la página
+
+    type="submit": Crea un botón de envío que, al ser presionado, envía los datos del formulario al servidor.
+    id="boton1" y name="boton1": Identifican el botón de envío.
+    value="Enviar": Define el texto que aparecerá en el botón.
+
+•   <form id="form2" name="form2" action="" method="get" target="_blank"> 
+        LOGIN<br/> 
+        <label>
+            Usuario: <input type="text" id="usu2" name="usu2" />
+        </label>
+        <br /> 
+        <label>
+            Clave: <input type="text" id="clave2" name="clave2" />
+        </label>
+        <br /> 
+        <input type="submit" id="boton2" name="boton2" value="Enviar" /> 
+    </form>
+
+    *Descripcion*
     
+    id="form2" y name="form2": Identifican el formulario.
+    action="": Indica que los datos del formulario se enviarán a la misma URL en la que se encuentra el formulario, ya que el valor está vacío.
+    method="get": Indica que los datos del formulario se enviarán usando el método GET. Los datos se adjuntarán a la URL como parámetros de consulta, lo que no es seguro para datos sensibles como contraseñas.
+    target="_blank": Abre el resultado del envío del formulario en una nueva pestaña.
+    Texto "LOGIN": Este texto simple aparece en la parte superior del formulario, actuando como un título que indica la función del formulario.
+
+    <label>: Asocia un texto descriptivo con un campo de entrada. Al hacer clic en el texto dentro de la etiqueta label, el navegador enfocará automáticamente el campo de entrada asociado.
+    Usuario: y Clave: Son los textos descriptivos para los campos de entrada de nombre de usuario y clave, respectivamente.
+    
+    <input type="text">:
+        type="text": Crea un campo de entrada de texto donde el usuario puede escribir su nombre de usuario o clave.
+        id="usu2" y name="usu2": Identifican el campo de entrada del nombre de usuario.
+        id="clave2" y name="clave2": Identifican el campo de entrada de la clave.
+    
+    <input type="submit">:
+        type="submit": Crea un botón de envío que envía los datos del formulario al servidor.
+        id="boton2" y name="boton2": Identifican el botón de envío.
+        value="Enviar": Define el texto que aparecerá en el botón.
+
+•   <form id="form3" name="form3" action="mailto:xx@xx.com” enctype=text/plain method="post" target="_blank"> 
+    <fieldset> 
+        <legend>LOGIN</legend> 
+        Usuario: <input type="text" id="usu3" name="usu3" />
+        <br /> 
+        Clave: <input type="password" id="clave3" name="clave3" /> 
+    </fieldset> 
+    <input type="reset" id="boton3" name="boton3" value= "Enviar" /> 
+    </form> 
+
