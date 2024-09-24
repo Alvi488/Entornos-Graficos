@@ -19,3 +19,4 @@ $a['nombre'] = 'manzana';
 $a[] = 4;
 ?>
 
+Los códigos son equivalentes. La diferencia es que el primero declara un array de tipo asociativo (los elementos se acceden por claves definidas), y el segundo declara un array de tipo indexado (los elementos se acceden por su posición).
