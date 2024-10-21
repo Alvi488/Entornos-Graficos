@@ -34,7 +34,8 @@
                 </tr>
                 <tr>
                     <td colspan="5">
-                        <?php}
+                        <?php
+                        }
                         mysqli_free_result($vResultado);
                         mysqli_close($link);
                         ?>
