@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IniciarSesion</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <section id="inicio">
+        
+        <h1>Iniciar Sesion</h1>
+            
+        <div class="container-fluid">
+            <div class="row">
+                
+                <form action="login" id="formInicioSesion">
+
+                    <div class="container-fluid">
+
+                        <div class="d-flex justify-content-center m-2">
+                            <label for="mail">Mail*</label>
+                            <input type="email" name="mail" id="mail" placeholder="Ingrese Mail" required>
+                        </div>
+
+                        <div class="d-flex justify-content-center m-2">
+                            <label for="pass">Contraseña*</label>
+                            <input type="text" name="pass" id="pass" placeholder="Ingrese contraseña" required>
+                        </div>
+                        
+                        <div class="d-flex justify-content-center m-2">    
+                            <button type="submit" id="buttonIniciar">Iniciar Sesion</button>
+                        </div>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div id="text-registro"> ¿No tiene cuenta? <a href="sign-inForm.html">Registrarse</a></div>
+                </div>
+            </div>
+                
+            </div>        
+        </div>
+
+
+    </section>
+    
+        
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

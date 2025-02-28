@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+
+h1 {
+    font-weight: bold;
+}
+
+#formInicioSesion {
+    margin: auto;
+    padding: 0px;
+    background-color: bisque;
+    border-radius: 10;
+    border-width: 5px;
+    border-color:darksalmon;
+    border-style: ridge;
+}
+
+
+
+#text-registro{
+    text-align: center;
+}
+
+
+#buttonIniciar{
+    background-color: salmon;
+    color: white;
+    border-style:solid;
+    border-radius: 20px;
+    border-color: rgb(200, 101, 90);
+    border-width: 5px;    
+}
+
+label {
+    color: salmon;
+    font-weight: bold;
+}
