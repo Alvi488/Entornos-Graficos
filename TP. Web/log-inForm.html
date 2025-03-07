@@ -16,42 +16,50 @@
 
 
 <body>
-    <header>
-        
-    </header>
+    <iframe class="cabecera" src="templates/cabecera.html" frameborder="0" title="cabecera"></iframe>
 
-    <section id="inicio">
+    <main>
+        
         
             
-        <div class="container-fluid">
             <div class="d-flex flex-row justify-content-center">
-                <div class="d-flex flex-column align-items-center">
+                <h1>Iniciar Sesion</h1>
+            </div>
 
-            
-                    <h1>Iniciar Sesion</h1>
 
-                    <form action="login" id="formInicioSesion">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="d-flex flex-column align-items-center">           
+                    
+
+                    <form action="funcionalidad/log-in.php" method="post" id="formInicioSesion">
                         <input type="email" name="mail" id="mail" placeholder="Ingrese Mail" required>
-                        <input type="text" name="pass" id="pass" placeholder="Ingrese contraseña" required>
+                        <input type="password" name="pass" id="pass" placeholder="Ingrese contraseña" required>
                         <input type="checkbox" name="rememberMe" id="rememberMe">
                         <label for="rememberMe">Recordarme</label>
                         <button type="submit" id="botonIniciar">Iniciar Sesion</button>                       
                     </form>
 
 
+                </div>
+            </div>
+            
+
+
+            <div class="d-flex flex-row justify-content-center">
+                <div class="d-flex flex-column align-items-center">    
                     <a href="cambiarContrseña.html"> ¿Has olvidado la contraseña? </a>
                     <div> ¿No tienes cuenta? <a href="sign-inForm.html">Registrarse</a></div>
+                </div>
+            </div>
+            
                 
-                    
-        </div>
-
-
-    </section>
+    </main>              
     
         
 
+    <iframe class="pie" src="templates/piePag.html" frameborder="0" title="pie de página"></iframe>
+ 
 
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
