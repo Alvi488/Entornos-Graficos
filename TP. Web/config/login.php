@@ -4,25 +4,24 @@
 
 //$_GET[]: Array asociativo de variables pasadas al script actual a través de la URL. 
 //$_POST[]: Array asociativo de variables pasadas al script actual a través del método HTTP POST.
-include_once("funciones.php");
+
+require_once("funciones.php");
 
 if(isset($_POST['botonIniciar'])){
 
         $arreglo = $_POST;
 
-        foreach($arreglo as $item){ 
-            echo $item;
-            echo "<br>";
-        }
-
         $query = "SELECT * FROM usuario WHERE nombreUsr = '".$arreglo['mail']."' AND claveUsr = '".md5($arreglo['pass'])."';";
         $usuarioValido = consultaSQL($query);
 
-        if(isset($usuarioValido)){
-            echo "Iniciando Sesión";
+        if($usuarioValido){
+            echo "<br>¡Bienvenido!</br>";
 
         } else{
-            echo "Usuario o contraseña incorrectos";
+            header('Location: ../loginForm.html');
+            echo '
+            <br>
+            <div style="color: red;"> Usuario o contraseña incorrectos </div>';
     }
 }
 
