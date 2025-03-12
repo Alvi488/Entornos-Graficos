@@ -1,14 +1,11 @@
 @charset "utf-8";
 
 footer{
-    background-color: gray;
-    border-color: black;
-    
+    background-color: bisque;
 }
 
 header{
-    background-color: gray;
-    border-color: black;
+    background-color: bisque;
 }
 
 
